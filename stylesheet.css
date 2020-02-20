@@ -1,0 +1,101 @@
+body{background-color:burlywood;
+background-repeat: no-repeat;
+background-size:contain;}
+header{
+    text-align: center;
+    background-color: seagreen;
+    border: slateblue;
+    border-radius:100px ;
+}
+header h1{
+    font-weight: bolder;
+    font-size:70px;
+  border-bottom: red;
+  opacity:0.7;
+    
+}
+header h2{
+    font-size:50px;
+    border: red;
+background-image: url("hashu.png");
+}
+.intro p{ 
+    text-align:center;
+    
+}
+.m{
+    float: right;
+    width:30%;
+    padding-top:25px;
+    
+    
+}
+.m input{
+    border-radius:100px;
+    background-color: darkslategray;
+    border-color: darkblue;
+    opacity:0.6;
+}
+.search{
+    =
+    color: darkblue;
+}
+.search input{
+    margin-left: 100px;
+    padding:10px 200px;
+    border-radius:30px;
+    border-color: darkgreen;
+    background-color:wheat;
+
+}
+.search p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+
+}
+.lessons{
+   
+    text-align: center;
+}
+.topics{
+    
+}
+.m input:hover{
+    
+opacity:1.0;
+background-color:red;
+box-shadow: tomato;
+
+}
+.m input:active{
+    background-color: yellow;
+    opacity: 1.0;
+    position: relative;
+    top:4px;
+}
+header:hover{
+    background-color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity:1.0;
+}
+.intro{
+    background-color: darkslategray;
+    border-radius:50px;
+}
+.intro:hover{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: deepskyblue;
+
+}
+.search input:hover{ background-color: gold;
+
+
+}
+.search{
+    background-color: fuchsia;
+}
+.or{
+   border-color: lightcorals;
+    border:20px 20px;
+}
