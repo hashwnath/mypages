@@ -1,11 +1,17 @@
-body{background-color:burlywood;
-background-repeat: no-repeat;
-background-size:contain;}
+body{ background-image: url('https://media.giphy.com/media/DFgTuYiEuY2Pu/giphy.gif');
+    background-size: cover;
+    
+    
+    
+    }
 header{
     text-align: center;
-    background-color: seagreen;
+    background-image: url('https://www.thisiscolossal.com/wp-content/uploads/2014/06/2.gif');
+   background-size: contai;
+   
     border: slateblue;
     border-radius:100px ;
+    color: lightcyan;
 }
 header h1{
     font-weight: bolder;
@@ -64,7 +70,8 @@ background-image: url("hashu.png");
 .m input:hover{
     
 opacity:1.0;
-background-color:red;
+background-image: url(https://www.mathwarehouse.com/animated-gifs/images/sequences-series/sum-of-n-numbers-gauss-animation.gif);
+background-repeat: no-repeat;
 box-shadow: tomato;
 
 }
@@ -75,9 +82,10 @@ box-shadow: tomato;
     top:4px;
 }
 header:hover{
-    background-color: brown;
+    background-image: url(https://www.mathwarehouse.com/animated-gifs/images/sine-cosine-unit-circle-animation.gif);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     opacity:1.0;
+    color: black;
 }
 .intro{
     background-color: darkslategray;
@@ -85,8 +93,8 @@ header:hover{
 }
 .intro:hover{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: deepskyblue;
-
+    
+    background-image: url(https://www.mathwarehouse.com/animated-gifs/images/sequences-series/sum-of-n-numbers-gauss-animation.gif);
 }
 .search input:hover{ background-color: gold;
 
@@ -99,3 +107,14 @@ header:hover{
    border-color: lightcorals;
     border:20px 20px;
 }
+    .topics{
+        background-image: url(https://media2.giphy.com/media/OsWAzHSHRdjtC/source.gif);
+    }
+    .search:hover{
+        background-image: url(https://www.mathwarehouse.com/animated-gifs/images/sequences-series/sum-of-n-numbers-gauss-animation.gif);
+       
+    }
+    .intro:hover{
+        background-image: url(https://media2.giphy.com/media/OsWAzHSHRdjtC/source.gif);
+        color:white;
+    }
